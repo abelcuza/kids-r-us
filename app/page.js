@@ -25,8 +25,8 @@ export default function Home() {
             <section>
                 <Box sx={{display: "flex", justifyContent: "space-between", width: "100%"}}>
                     <div style={{position: "relative"}}>
-                        <Image src="/homepage/slider-1.jpg" width={698} height={470} alt="homepage-slider-1"/>
-                        <div style={{position: "absolute", left: "5%", top: "50%", color: "white"}}>
+                        <Image src="/homepage/slider-1.jpg" width={768} height={518} alt="homepage-slider-1"/>
+                        <div style={{position: "absolute", left: "5%", top: "60%", color: "white"}}>
                             <h1 className={francoisOne.className}>JUMPSUITS</h1>
                             <p>Confortable clothes for your little babbies</p>
                             <Button variant="contained">Discover</Button>
