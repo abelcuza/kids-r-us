@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import {Button, InputBase, TextField} from "@mui/material";
+import {gildaDisplay} from "@/app/fonts";
 
 export default function SuscribeNewsletter(){
     const boxStyle = {
@@ -27,7 +28,7 @@ export default function SuscribeNewsletter(){
     }
     return (
         <Box sx={boxStyle}>
-            <h4>Join Our <br/>Newsletter</h4>
+            <h1 className={gildaDisplay.className}>Join Our <br/>Newsletter</h1>
             <InputBase size="small"  sx={textFieldStyle} placeholder="Your Email Address *" fullWidth/>
             <Button sx={buttomStyle} variant="contained" fullWidth>
                 <Box sx={insideBoxStyle}>
