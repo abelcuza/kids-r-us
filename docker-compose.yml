@@ -4,7 +4,7 @@ services:
     image: docker-nextjs-dev
     build: .
     ports:
-      - "8002:3000"
+      - "3000:3000"
     command: npm run dev
     volumes:
       - ./app:/app/app
